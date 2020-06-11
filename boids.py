@@ -267,8 +267,7 @@ class Boid:
 #boids
 boid_list = [ Boid( id=i, 
                     position=[20+random.random()*WIDTH, 20+random.random()*HEIGHT],
-                    velocity=[random.choice([-3,3]), 
-                    acceleration=random.choice([-3,3])]) for i in range(BOID_COUNT)
+                    velocity=[random.choice([-3,3]), random.choice([-3,3])]) for i in range(BOID_COUNT)
             ]
 
 
